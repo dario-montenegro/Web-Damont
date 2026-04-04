@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box; /* Incluye padding y border en el width/height definido */
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+.imagen-portada{
+  width: 100%;
+}
+
+.titulo-principal{
+  font-family:serif;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.parrafo-principal{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px; 
+  
+}
+
+.titulos-secundarios{
+  font-family:serif;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;  
+}
+.imagen-servicios{
+  width: 500px;
+  margin: 20px;
+}
+
+.titulo-servicio{
+  font-family:serif;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.parrafo-servicio{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;   
+  width: 500px;
+  padding: 10px;
+}
+.contenedor{
+  
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 10px 10px 5px #1b1b1b;
+}
+.servicios{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr ; /* 3 columnas */
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  width: 80%;           
+  margin: 50px auto;
+}
+.img-piepag{
+  width: 200PX;
+}
