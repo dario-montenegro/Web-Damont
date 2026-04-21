@@ -93,10 +93,18 @@ textarea{
   width: 100%;
 }
 .boton-enviar{
-  width: 90px;
-  height:50px;
+  width: 70px;
+  height:40px;
   margin: 10px;
   border-radius: 10px;
+  border: green solid 5px;
+}
+.boton-reset{
+  width: 70px;
+  height:40px;
+  margin: 10px;
+  border-radius: 10px;
+  border: red solid 5px;
 }
 footer{
   background-color: #131313;
