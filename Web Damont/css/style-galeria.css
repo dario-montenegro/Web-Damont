@@ -17,11 +17,18 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
+  justify-content: space-evenly;
 
 }
 .menu a {
   text-decoration: none;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(134, 58, 58);
+  padding: 10px;
+  
 }
 .item-menu{
   width: 100px;
@@ -30,18 +37,19 @@ body{
   font-size: 20px;
   color: #ffffff;
   padding: 10px;
+
   text-align: center;
 }
-.item-menu:hover {
-  background-color: #2a2a2a;
-}
+
+
 .titulo-principal{
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: #ffffff;
+  color: red;
   padding: 10px;
+  margin: 15px;
 
 }
 
@@ -49,16 +57,34 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #ffff;
   padding: 20px; 
   
 }
 
-h2{
-  font-size: 30px;
+
+
+
+
+
+
+.titulos-secundarios{
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
-  color: white;
-  margin: 25px;
+  color: red;
+  padding: 10px; 
+}
+
+
+h2{
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  padding: 10px; 
 }
 
 .galeria img{
@@ -121,6 +147,10 @@ footer{
   background-color: #131313;
 
 }
+footer{
+  background-color: #131313;
+
+}
 .footer-iconos{
   width: 100%;
   height: 70px;
@@ -140,9 +170,11 @@ footer{
 .facebook-btn,
 .maps-btn{
   font-size: 60px;
-  color: #000000;
+  color: rgb(241, 52, 52);
   margin: 0 15px;
 }
+
+
 .titulo-contacto{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;

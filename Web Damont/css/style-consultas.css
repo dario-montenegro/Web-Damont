@@ -17,34 +17,39 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  text-decoration: none;
+  justify-content: space-evenly;
 
 }
 .menu a {
   text-decoration: none;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(134, 58, 58);
+  padding: 10px;
+  
 }
 .item-menu{
   width: 100px;
-  border: 1px solid beige;
+
   font-family:serif;
   font-size: 20px;
   color: #ffffff;
   padding: 10px;
-  border: 10px beige;
-  text-align: center;
 
+  text-align: center;
 }
-.item-menu:hover {
-  background-color: #2a2a2a;
-}
+
+
 .titulo-principal{
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: #ffffff;
+  color: red;
   padding: 10px;
+  margin: 15px;
 
 }
 
@@ -52,17 +57,24 @@ body{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #ffff;
   padding: 20px; 
   
 }
 
+
+
+
+
+
+
 .titulos-secundarios{
-  font-family:serif;
-  font-size: 30px;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
-  color: #ffffff;
-  padding: 10px;  
+  color: red;
+  padding: 10px; 
 }
 
 .contenedor-formulario{
@@ -97,14 +109,18 @@ textarea{
   height:40px;
   margin: 10px;
   border-radius: 10px;
-  border: green solid 5px;
+  background: green;
 }
 .boton-reset{
   width: 70px;
   height:40px;
   margin: 10px;
   border-radius: 10px;
-  border: red solid 5px;
+  background: red;
+}
+footer{
+  background-color: #131313;
+
 }
 footer{
   background-color: #131313;
@@ -129,9 +145,11 @@ footer{
 .facebook-btn,
 .maps-btn{
   font-size: 60px;
-  color: #000000;
+  color: rgb(241, 52, 52);
   margin: 0 15px;
 }
+
+
 .titulo-contacto{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -153,12 +171,4 @@ footer{
 }
 .logo-footer{
   width: 400px;
-}
-.cont-form{
-  width: 700px;
-  border: #636363 solid 2px;
-  border-radius: 10px;
-  margin: 0 auto;
-  
-
 }
